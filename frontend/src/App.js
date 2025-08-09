@@ -19,7 +19,7 @@ function App(){
           <Route path="/admin" element={<Admin />} />
         </Routes>
       </main>
-      <footer className="footer">Built with ❤️ • MERN</footer>
+      
     </div>
   );
 }
