@@ -1,23 +1,39 @@
-# URL Shortener (MERN) — Project ZIP
+# URL Shortener
 
-This archive contains a MERN (MongoDB, Express, React, Node) URL shortener.
+A minimal, fast, and reliable URL shortener application.
 
-## Steps to run locally
+## Features
 
-1. Unzip the folder.
-2. Backend:
-   - cd backend
-   - copy `.env.example` to `.env` and update if needed
-   - npm install
-   - ensure MongoDB is running locally (mongod)
-   - npm run dev
-3. Frontend:
-   - cd frontend
-   - npm install
-   - npm start
-4. Open http://localhost:3000
+- Shorten long URLs to short, easy-to-share links
+- Custom aliases for your links
+- Redirect short URLs to the original URLs
+- Basic click tracking and statistics (optional)
+- RESTful API for programmatic access
 
-Notes:
-- Backend default port: 5000
-- Frontend default port: 3000
-- API base can be changed via REACT_APP_API_BASE environment variable if needed.
+## Tech Stack
+
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Frontend:** React, HTML, CSS
+- **Deployment:**  Netlify
+
+## Getting Started
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/itslucky07/url-shortener.git
+    cd url-shortener
+    ```
+
+2. **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+
+## License
+
+MIT
+
+---
+_Update the README with your actual tech stack and deployment details if different._
